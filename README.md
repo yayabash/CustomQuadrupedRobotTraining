@@ -25,7 +25,7 @@ The following key changes were made to the configuration to improve the robot's 
 
 ## Usage
 To replicate or resume the training:
-1. **Install IsaacLab**: Follow the official IsaacLab installation guide[](https://isaaclab-docs.xai.org/).
+1. **Install IsaacLab**: [Follow the official IsaacLab installation guide] (https://github.com/isaac-sim/IsaacLab/tree/main)
 2. **Clone this Repository**: 
    ```bash
    git clone https://github.com/yayabash/CustomQuadrupedRobotTraining.git
