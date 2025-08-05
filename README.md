@@ -33,19 +33,19 @@ To replicate or resume the training:
    ```
 ## Run Training
 
-	```bash
-	./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Flat-Custom-Quad-v0 --num_envs 64 --video
-	```
+   ```bash
+   ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Flat-Custom-Quad-v0 --num_envs 64 --video
+   ```
 	
 ## Monitor Progress: Use TensorBoard for real-time metrics:
 
-	```bash
-	tensorboard --logdir=/path/to/logs/rsl_rl/custom_quad_flat/ --port=your_port
-	```
+   ```bash
+   tensorboard --logdir=/path/to/logs/rsl_rl/custom_quad_flat/ --port=your_port
+   ```
 	
 ## To play training
 
-	```bash
-	./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py   --task=Isaac-Velocity-Flat-Custom-Quad-v0   --num_envs 64 --checkpoint /path/to/last_checkpoint
-	```
+   ```bash
+   ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py   --task=Isaac-Velocity-Flat-Custom-Quad-v0   --num_envs 64 --checkpoint /path/to/last_checkpoint
+   ```
 	
